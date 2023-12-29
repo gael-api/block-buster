@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: Bucket
 metadata:
   name: 4-demo-source-minio-s3-bucket-bb-app
-  namespace: flux-system
+  namespace: 4-demo
 spec:
   bucketName: bucket-bb-app
   endpoint: minio.minio-dev.svc.cluster.local:9000
